@@ -10,7 +10,17 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
+        int i,j;
+        int size=0;
+
+        char x='X';
+        printf("input matrix size:");
+        scanf("%d",&size);
+        NSMutableArray *map = [[NSMutableArray alloc] initWithCapacity:size];
+        
+        for (i=0; i<size; i++) {
+            map
+        }
         NSLog(@"Hello, World!");
     }
     return 0;
